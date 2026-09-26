@@ -1,12 +1,12 @@
 # Sistema de Gestión y Analítica de Datos de Fórmula 1
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16%2B-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![PL/pgSQL](https://img.shields.io/badge/PL%2FpgSQL-Procedural_Logic-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![UAH GISI](https://img.shields.io/badge/UAH-GISI-blue?style=for-the-badge)
+[![Database](https://img.shields.io/badge/Database-PostgreSQL%2014%2B-blue.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Procedural Logic](https://img.shields.io/badge/Logic-PL%2FpgSQL%20Triggers-orange.svg)](#7-lógica-procedimental-triggers-de-auditoría-y-recálculo-de-puntos-pecl2)
+[![Application & CLI](https://img.shields.io/badge/Application-Python%203%20%7C%20Pandas-success.svg?logo=python&logoColor=white)](#9-explotación-analítica-de-datos-consultas-sql-y-aplicación-python)
+[![Data Modeling & ETL](https://img.shields.io/badge/Architecture-Peter%20Chen%20E%2FR%20%7C%20ETL-purple.svg)](#3-modelo-conceptual-entidad-relación)
+[![Academic Context](https://img.shields.io/badge/UAH-GISI%20%7C%20Bases%20de%20Datos-red.svg)](#2-contexto-académico-trazabilidad-y-despliegue)
 
-Sistema integral de base de datos relacional para la ingesta masiva, modelado, auditoría y análisis histórico de campeonatos mundiales de Fórmula 1. El proyecto combina diseño conceptual riguroso (notación Peter Chen), un pipeline ETL en dos fases en **PostgreSQL**, lógica de negocio reactiva mediante **triggers en PL/pgSQL**, control de accesos basado en roles (**RBAC**) y una aplicación interactiva por línea de comandos desarrollada en **Python** con **Pandas** y **Psycopg2**.
+> Sistema integral de base de datos relacional para la ingesta masiva, modelado, auditoría y análisis histórico de campeonatos mundiales de Fórmula 1. El proyecto combina diseño conceptual riguroso (notación Peter Chen), un pipeline ETL en dos fases en **PostgreSQL**, lógica de negocio reactiva mediante **triggers en PL/pgSQL**, control de accesos basado en roles (**RBAC**) y una aplicación interactiva por línea de comandos desarrollada en **Python** con **Pandas** y **Psycopg2**.
 
 ---
 
