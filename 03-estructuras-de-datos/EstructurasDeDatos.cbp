@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="EstructurasDeDatos" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/EstructurasDeDatos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/EstructurasDeDatos" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include/ABB.h" />
+		<Unit filename="include/Cola.h" />
+		<Unit filename="include/Documento.h" />
+		<Unit filename="include/Impresora.h" />
+		<Unit filename="include/Lista.h" />
+		<Unit filename="include/ListaDocs.h" />
+		<Unit filename="include/NodoABB.h" />
+		<Unit filename="include/NodoCola.h" />
+		<Unit filename="include/NodoLista.h" />
+		<Unit filename="include/NodoListaDocs.h" />
+		<Unit filename="include/NodoPila.h" />
+		<Unit filename="include/Pila.h" />
+		<Unit filename="include/Sistema.h" />
+		<Unit filename="src/ABB.cpp" />
+		<Unit filename="src/Cola.cpp" />
+		<Unit filename="src/Documento.cpp" />
+		<Unit filename="src/Impresora.cpp" />
+		<Unit filename="src/Lista.cpp" />
+		<Unit filename="src/ListaDocs.cpp" />
+		<Unit filename="src/NodoABB.cpp" />
+		<Unit filename="src/NodoCola.cpp" />
+		<Unit filename="src/NodoLista.cpp" />
+		<Unit filename="src/NodoListaDocs.cpp" />
+		<Unit filename="src/NodoPila.cpp" />
+		<Unit filename="src/Pila.cpp" />
+		<Unit filename="src/Sistema.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
