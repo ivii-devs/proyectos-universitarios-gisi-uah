@@ -85,13 +85,14 @@ flowchart LR
 
 ### 2.2. Trazabilidad, Privacidad y Organización para GitHub
 
-> [!NOTE] > **Trazabilidad, Privacidad y Organización para GitHub:**  
+> [!NOTE] 
+> **Trazabilidad, Privacidad y Organización para GitHub:**  
 > Este módulo conserva íntegramente la lógica interna, el modelo de sincronización y las decisiones de diseño evaluadas durante la carrera universitaria.  
 > Con el fin de adaptar el proyecto a estándares de código abierto y portafolios técnicos:
 >
 > - **Propiedad Intelectual y Normativa Académica:** Se ha omitido el documento PDF original del enunciado oficial para respetar los derechos de propiedad intelectual del cuerpo docente de la Universidad de Alcalá. Todos los requisitos y reglas de negocio se han documentado con redacción propia a lo largo de este archivo.
 > - **Protección de Datos Personales:** Se eliminó la memoria en formato PDF que contenía los números de DNI de los autores en portada, trasladando sus explicaciones técnicas, diagramas y retos resueltos directamente a esta documentación Markdown.
-> - **Estandarización de Directorios:** Se eliminaron las carpetas intermedias de entrega de la plataforma docente (`PECL1_...`), aplanando el proyecto en una estructura estándar de Maven bajo `04-paradigmas-programacion`.
+> - **Estandarización de Directorios:** Se eliminaron las carpetas intermedias de entrega de la plataforma docente (`PECL1_...`), aplanando el proyecto en una estructura estándar de Maven bajo `03-paradigmas-programacion`.
 > - **Fidelidad al Código Evaluado:** Se mantiene el 100% del código fuente entregado, incluyendo los mecanismos de sincronización, la gestión del control de pausa y la arquitectura RMI.
 
 ---
@@ -268,7 +269,7 @@ ejecutar_sistema.bat
 
 ### Opción B: Compilación y Ejecución con Apache Maven
 
-Desde el directorio `04-paradigmas-programacion/`:
+Desde el directorio `03-paradigmas-programacion/`:
 
 ```bash
 # 1. Compilar clases del proyecto
@@ -302,7 +303,7 @@ java -cp target/classes poo.peclcafeteria.ClienteMonitor
 
 ### Opción D: Entornos de Desarrollo Integrados (IDEs)
 
-- **Apache NetBeans:** El proyecto incluye `nbactions.xml`. Basta con abrir la carpeta `04-paradigmas-programacion` como proyecto Maven y pulsar **Run Project** (`F6`).
+- **Apache NetBeans:** El proyecto incluye `nbactions.xml`. Basta con abrir la carpeta `03-paradigmas-programacion` como proyecto Maven y pulsar **Run Project** (`F6`).
 - **IntelliJ IDEA / VS Code / Eclipse:** Abrir la carpeta raíz como proyecto Maven y ejecutar el método `main` de `ServidorCafeteria.java` y posteriormente de `ClienteMonitor.java`.
 
 ---

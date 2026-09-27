@@ -47,7 +47,7 @@ El sistema cubre el ciclo de vida completo del dato deportivo:
 
 ### 2.3. Estructura de Directorios
 ```text
-02-bases-de-datos/
+01-bases-de-datos/
 │
 ├── README.md                      <-- Documentación técnica completa del proyecto
 ├── data/                          <-- Datasets históricos en formato CSV (delimitador ;)
@@ -67,14 +67,14 @@ El sistema cubre el ciclo de vida completo del dato deportivo:
    ```bash
    createdb -U postgres pruebas
    ```
-2. Ejecuta el script desde la raíz `02-bases-de-datos`:
+2. Ejecuta el script desde la raíz `01-bases-de-datos`:
    ```bash
    psql -U postgres -d pruebas -f sql/main.sql
    ```
    *El script creará automáticamente el esquema temporal `temp`, cargará los 10 archivos CSV desde la carpeta `data/`, transformará y migrará los datos al esquema definitivo `ddbb`, aplicará las restricciones de integridad, activará los triggers PL/pgSQL, ejecutará la batería de validación con rollback y aprovisionará los cuatro usuarios del sistema.*
 
 #### Paso 2: Instalar Dependencias de Python
-En la terminal, dentro de `02-bases-de-datos`:
+En la terminal, dentro de `01-bases-de-datos`:
 ```bash
 pip install -r src/requirements.txt
 ```

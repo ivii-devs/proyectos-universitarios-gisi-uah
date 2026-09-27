@@ -11,7 +11,7 @@ Con el fin de estructurar este repositorio para su publicacion en GitHub siguien
 las mejores practicas de la industria, los datasets CSV se han reubicado en la
 carpeta 'data/'. Por ello, las sentencias \COPY del Bloque 1 se han actualizado
 para leer desde 'data/<archivo>.csv' (asumiendo ejecucion desde la raiz del modulo
-02-bases-de-datos). Toda la logica relacional, normalizacion, vistas, triggers y
+01-bases-de-datos). Toda la logica relacional, normalizacion, vistas, triggers y
 control de acceso RBAC permanece 100% fiel e inalterada respecto a la entrega academica.
 ================================================================================
 */
@@ -415,7 +415,7 @@ CREATE TABLE IF NOT EXISTS ddbb.corre (
 \echo 'Cargando datos en las tablas temporales...'
 \echo '========================================================='
 
--- NOTA: Rutas actualizadas a 'data/*.csv' para ejecucion desde la raiz del modulo '02-bases-de-datos'
+-- NOTA: Rutas actualizadas a 'data/*.csv' para ejecucion desde la raiz del modulo '01-bases-de-datos'
 -- (En la entrega original se ejecutaba con los CSV en el mismo directorio).
 
 -- TABLA TEMPORAL CIRCUITOS

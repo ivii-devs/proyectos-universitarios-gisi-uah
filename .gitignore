@@ -1,0 +1,83 @@
+# ==========================================
+# 03 - Paradigmas de Programación (Java / Maven)
+# ==========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Ficheros de log generados en tiempo de ejecución
+evolucion_cafeteria.txt
+*.log
+
+# ==========================================
+# 02 - Estructuras de Datos (C++ / Make / CMake)
+# ==========================================
+bin/
+build/
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Code::Blocks
+*.layout
+*.depend
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+
+# ==========================================
+# 01 - Bases de Datos (Python / SQL)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# ==========================================
+# IDEs y Editores de Código
+# ==========================================
+# NetBeans
+nbproject/private/
+nbproject/project.xml.bak
+.nb-cache/
+
+# VS Code / Cursor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.history/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ==========================================
+# Archivos del Sistema Operativo
+# ==========================================
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+.DS_Store
